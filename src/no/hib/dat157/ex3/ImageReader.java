@@ -14,7 +14,7 @@ public class ImageReader {
 		int picHeight;
 		int maxvalue;
 		
-		public double[] greyToneData(String filePath) throws IOException{
+		public double[] getGreyToneData(String filePath) throws IOException{
 			
 		fileInputStream = new FileInputStream(filePath);
 		scan = new Scanner(fileInputStream);
